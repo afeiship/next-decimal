@@ -31,17 +31,15 @@
         var sum = 1;
         var args = arguments;
         var power = getPower(args);
-        console.log('power:->', power);
         nx.each(args, function (arg) {
           sum *= arg * power;
         });
         return sum / (power * power);
       },
       div: function (inNum1, inNum2) {
-        //todo:no test case,be careful
         var power = getPower(arguments);
         var result = inNum1 * power / inNum2 * power;
-        return result / power;
+        return result / (power * power);
       }
     }
   });
