@@ -1,0 +1,28 @@
+{
+  "name": "next-lang-decimal",
+  "authors": [
+    "afei"
+  ],
+  "description": "An arbitrary-precision Decimal lib based on next toolkit.",
+  "main": "dist/Decimal.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "float",
+    "decimal",
+    "next"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "next-js-core": "*"
+  }
+}
