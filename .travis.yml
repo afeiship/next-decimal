@@ -5,5 +5,8 @@ node_js:
 install:
   - npm install
 
-scripts:
+script:
+  - npm run test
+
+after_success:
   - npm run build
