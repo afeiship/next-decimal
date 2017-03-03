@@ -1,7 +1,7 @@
 (function (nx, global) {
 
   //todo:optimize test quite commit...
-
+  //todo: ci test;
   function getPower(inArgs) {
     var pos;
     var max = 0;
