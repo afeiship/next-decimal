@@ -7,33 +7,30 @@
 ##usage:
 + Get Decimal util:
 ```javascript
-  var Decimal=nx.lang.Decimal;
+  // in browser:
+  var nxDecimal=nx.Decimal;
+  //in es6/7 nodejs env:
+  import nxDecimal from 'next-decimal';
 ```
 + Add:
 ```javascript
-  Decimal.add(0.1,0.2,0.3);
+  nxDecimal.add(0.1,0.2,0.3);
 ```
 
 + Sub:
 ```javascript
-  Decimal.sub(0.3,0.1);
+  nxDecimal.sub(0.3,0.1);
 ```
 
 + mul:
 ```javascript
-  Decimal.mul(0.3,0.1,0.2);
+  nxDecimal.mul(0.3,0.1,0.2);
 ```
 
 + div:
 ```javascript
-  Decimal.mul(0.3,0.1);
+  nxDecimal.mul(0.3,0.1);
 ```
-
-
-##test:
-+ cd next-lang-decimal
-+ mocha
-
 
 ##resource:
 + http://mochajs.org/
