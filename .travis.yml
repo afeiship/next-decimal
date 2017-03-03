@@ -4,7 +4,7 @@ node_js:
 
 env:
  global:
-   - GH_REF: git@github.com:afeiship/next-decimal.git
+   - GH_REF: github.com:afeiship/next-decimal.git
 
 install:
   - npm install
