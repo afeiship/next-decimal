@@ -6,6 +6,9 @@ env:
  global:
    - GH_REF: github.com/afeiship/next-decimal.git
 
+before_install:
+  - chmod 755 ./deploy.sh
+
 install:
   - npm install
 
@@ -13,11 +16,4 @@ script:
   - npm run test
 
 after_success:
-  - npm run build
-  - git config user.name "feizheng-ci"
-  - git config user.email "1290657123@qq.com"
-  - git add --all
-  - git commit -m "update build from travis-ci"
-  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
-
-
+  - sh ./deploy

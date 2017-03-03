@@ -37,3 +37,5 @@
 + http://ourjs.com/detail/54695381bc3f9b154e000046
 + https://github.com/blog/1270-easier-builds-and-deployments-using-git-over-https-and-oauth
 + http://blog.csdn.net/woblog/article/details/51319364
++ https://gist.github.com/domenic/ec8b0fc8ab45f39403dd
++ http://blog.tgrrtt.com/exploring-the-travisci-configuration-file
