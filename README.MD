@@ -1,7 +1,5 @@
 #next-decimal
 > A decimal lib based on next toolkit.
-
-## Build by ci:
 ![mahua](https://api.travis-ci.org/afeiship/next-decimal.svg?branch=master)
 
 ##usage:

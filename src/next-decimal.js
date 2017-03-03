@@ -1,7 +1,5 @@
 (function (nx, global) {
 
-  // test by fei for ci :
-
   function getPower(inArgs) {
     var pos;
     var max = 0;
