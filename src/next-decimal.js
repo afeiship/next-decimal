@@ -1,6 +1,6 @@
 (function (nx, global) {
 
-  //todo:optimize test...
+  //todo:optimize test quite commit...
 
   function getPower(inArgs) {
     var pos;
