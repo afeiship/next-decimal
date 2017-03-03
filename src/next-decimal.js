@@ -3,7 +3,7 @@
   function getPower(inArgs) {
     var pos;
     var max = 0;
-    nx.each(inArgs, function (arg) {
+    nx.each(inArgs, function (_,arg) {
       pos = arg.toString().split('.')[1] || '';
       max = Math.max(max, pos.length);
     });
@@ -11,13 +11,13 @@
     return Math.pow(10, max);
   }
 
-  var Decimal = nx.declare('nx.lang.Decimal', {
+  var Decimal = nx.declare('nx.Decimal', {
     statics: {
       add: function () {
         var sum = 0;
         var args = arguments;
         var power = getPower(args);
-        nx.each(args, function (arg) {
+        nx.each(args, function (_,arg) {
           sum += arg * power;
         });
         return sum / power;
@@ -31,7 +31,7 @@
         var sum = 1;
         var args = arguments;
         var power = getPower(args);
-        nx.each(args, function (arg) {
+        nx.each(args, function (_,arg) {
           sum *= arg * power;
         });
         return sum / (power * power);

@@ -1,5 +1,5 @@
 var assert = require('assert');
-var nx = require('next-js-core');
+var nx = require('next-js-core2');
 var Decimal = require('../src/Decimal');
 describe('Decimal', function () {
 

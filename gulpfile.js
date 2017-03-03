@@ -1,23 +1,19 @@
 (function () {
 
-  var gulp = require('gulp');
-  var del = require('del');
-  var uglify = require('gulp-uglify');
-  var conf = {
-    src: 'src',
-    dist: 'dist'
-  };
+  const gulp = require('gulp');
+  const del = require('del');
+  const uglify = require('gulp-uglify');
+  const rename = require('gulp-rename');
 
   gulp.task('clean', function () {
-    del(conf.dist);
+    return del('dist');
   });
 
-  gulp.task('uglify', function () {
-    gulp.src(conf.src + '/*.js')
-      .pipe(uglify())
+  gulp.task('build', function () {
+    return gulp.src('src/*.js')
       .pipe(gulp.dest('dist'));
   });
 
-  gulp.task('default', ['clean', 'uglify']);
+  gulp.task('default', ['clean', 'build']);
 
 }());
