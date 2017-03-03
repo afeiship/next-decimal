@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "description": "An arbitrary-precision Decimal lib based on next toolkit.",
   "main": "dist/next-decimal.js",
-  "directories": {
-    "test": "mocha",
-    "build": "gulp build"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",

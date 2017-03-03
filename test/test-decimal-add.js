@@ -1,6 +1,6 @@
 var assert = require('assert');
 var nx = require('next-js-core2');
-var Decimal=require('../src/Decimal');
+var Decimal=require('../src/next-decimal');
 describe('Decimal', function () {
 
   describe('#add', function () {
