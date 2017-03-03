@@ -2,7 +2,7 @@
   "name": "next-lang-decimal",
   "version": "1.0.0",
   "description": "An arbitrary-precision Decimal lib based on next toolkit.",
-  "main": "gulpfile.js",
+  "main": "dist/next-decimal.js",
   "directories": {
     "test": "mocha",
     "build": "gulp build"
@@ -19,9 +19,6 @@
     "decimal",
     "next"
   ],
-  "files": [
-    "dist/Decimal.js"
-  ],
   "author": "afei",
   "license": "MIT",
   "devDependencies": {
@@ -34,6 +31,6 @@
     "next-js-core": "^1.0.0"
   },
   "dependencies": {
-    "next-js-core2": "^1.0.15"
+    "next-js-core2": "afeiship/next-js-core2"
   }
 }
