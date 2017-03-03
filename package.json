@@ -1,5 +1,5 @@
 {
-  "name": "next-lang-decimal",
+  "name": "next-decimal",
   "version": "1.0.0",
   "description": "An arbitrary-precision Decimal lib based on next toolkit.",
   "main": "dist/next-decimal.js",
