@@ -9,10 +9,10 @@ echo "$FULL_REPO";
 
 ## commit to github:
 git config --global push.default simple
-# git config user.name "feizheng-ci"
-# git config user.email "1290657123@qq.com"
-# git status
-# ls -alh
+git config user.name "afeiship"
+git config user.email "1290657123@qq.com"
+git status
+ls -alh
 git add .
 git commit -m "deployed to github by travis-ci"
 
