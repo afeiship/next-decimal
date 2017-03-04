@@ -42,3 +42,4 @@
 + https://rmflight.github.io/posts/2014/11/travis_ci_gh_pages.html
 + https://medium.com/@nthgergo/publishing-gh-pages-with-travis-ci-53a8270e87db#.8oafn2vhv
 + https://segmentfault.com/a/1190000004714256
++ http://lotabout.me/2016/Hexo-Auto-Deploy-to-Github/
