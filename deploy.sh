@@ -13,7 +13,7 @@ git config user.name "feizheng-ci"
 git config user.email "1290657123@qq.com"
 git status
 ls -alh
-git add --all
+git add dist
 git commit -m "deployed to github by travis-ci"
 git push --force $FULL_REPO master:master
 
