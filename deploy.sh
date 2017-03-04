@@ -17,3 +17,4 @@ git add dist
 git commit -m "deployed to github by travis-ci"
 git push --force $FULL_REPO master:master
 
+echo 'DONEONEONOENEOE!'
