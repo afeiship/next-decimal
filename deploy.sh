@@ -1,7 +1,6 @@
 #!/bin/bash
 
 ## basic define:
-REPO_TOKEN="4a6932953b7a065834aff8cb82a66dcab7d6ee8f"
 GH_REPO="github.com/afeiship/next-decimal.git"
 FULL_REPO="https://$REPO_TOKEN@$GH_REPO"
 
