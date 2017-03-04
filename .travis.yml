@@ -1,24 +1,20 @@
 language: node_js
 node_js:
-  - "stable"
-
-# Travis-CI Caching
+- stable
 cache:
   directories:
-    - node_modules
-
+  - node_modules
 branches:
   only:
-    - master
-
+  - master
 before_install:
-  - chmod 755 ./deploy.sh
-
+- chmod 755 ./deploy.sh
 install:
-  - npm install
-
+- npm install
 script:
-  - npm run test
-
+- npm run test
 after_script:
-  - ./deploy.sh
+- "./deploy.sh"
+env:
+  global:
+    secure: 0iInWFSLKawBiff/SsuPF/X2CNbExoh3VWGsjGklSl48o3c3khB4f8BzZy1Qm0ju/vKXTAAF6svkA9bRNJUJQSZ1AulLrgU/2a7ZWoQR/7S5sgTrYn5TBZKICZa7SsGw8lXutz/ObMPHZ/HXV+cv6N+/5cvpjg5+77Ogp0mrQwdlyqZWCoIFjhv600i+LsVFeszdUeFXFodBOCNHV7DVBZdF9yBwIYqhi1Y32q3PZeybA9aZsaYflNHa9JzbHLKSLL5IOcNzQzcGNI1630V0ZRiWlDBNpXGpRMddaZ9sYHbN3p0NNPhlaDH/EI/hupfPX5N1el0tO7vcK56Ow6o5sMfAcLuBsNNEW1D6xabBedm58OGJbX6OUJyMG1mb37kdBA5aPUoVcHYwtFXKA6afC//csX7NIWCG+RUe4TkfpMyqvhjhmYoWwLwDJQsRs1p0bEV8q37JWnQ+e26Gc0lXU48TGbhcPxSkEMIoU+HzJPWic74pn3LrkaB41afs6IshBB1cJUAQr3Q+qO3o0UHQ3QdN/0+ulh13yOa82VF9iO+M6QY9lBFIyiSKyFcRHS2ihubOgJqhy91C/iFIVd7W1KbDr/wU7r7QAeRWcKhweipcBEQlSjDwfZ3wVCzfchvZR4YhGWZC9b+60dMIhV7Xa0PDo3TJ5R5XW1cbp3GqDVU=

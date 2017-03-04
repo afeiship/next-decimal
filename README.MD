@@ -40,3 +40,4 @@
 + https://gist.github.com/domenic/ec8b0fc8ab45f39403dd
 + http://blog.tgrrtt.com/exploring-the-travisci-configuration-file
 + https://rmflight.github.io/posts/2014/11/travis_ci_gh_pages.html
++ https://medium.com/@nthgergo/publishing-gh-pages-with-travis-ci-53a8270e87db#.8oafn2vhv
