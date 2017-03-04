@@ -9,7 +9,6 @@ echo "$FULL_REPO";
 
 ## commit to github:
 cd ~/build/afeiship/next-decimal
-npm run build
 git config user.name "feizheng-ci"
 git config user.email "1290657123@qq.com"
 git status
