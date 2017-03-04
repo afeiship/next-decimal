@@ -3,7 +3,7 @@
   "authors": [
     "afei"
   ],
-  "description": "An arbitrary-precision Decimal lib based on next toolkit.",
+  "description": "An arbitrary-precision decimal lib based on next toolkit.",
   "main": "dist/next-decimal.js",
   "moduleType": [
     "node"

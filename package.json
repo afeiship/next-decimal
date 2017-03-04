@@ -1,7 +1,7 @@
 {
   "name": "next-decimal",
   "version": "1.0.0",
-  "description": "An arbitrary-precision Decimal lib based on next toolkit.",
+  "description": "An arbitrary-precision decimal lib based on next toolkit.",
   "main": "dist/next-decimal.js",
   "scripts": {
     "test": "mocha test",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:afeiship/next-lang-decimal.git"
+    "url": "git@github.com:afeiship/next-decimal.git"
   },
   "keywords": [
     "float",

@@ -10,7 +10,7 @@ echo "$FULL_REPO";
 ## commit to github:
 cd ~/build/afeiship/next-decimal
 npm run build
-git config user.name "afeiship-ci"
+git config user.name "afeiship"
 git config user.email "1290657123@qq.com"
 git add .
 git commit -m "deployed to github by travis-ci"

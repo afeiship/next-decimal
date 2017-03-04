@@ -1,5 +1,5 @@
 #next-decimal
-> A decimal lib based on next toolkit.
+> An arbitrary-precision decimal lib based on next toolkit.
 
 ![mahua](https://api.travis-ci.org/afeiship/next-decimal.svg?branch=master)
 
@@ -39,3 +39,4 @@
 + http://blog.csdn.net/woblog/article/details/51319364
 + https://gist.github.com/domenic/ec8b0fc8ab45f39403dd
 + http://blog.tgrrtt.com/exploring-the-travisci-configuration-file
++ https://rmflight.github.io/posts/2014/11/travis_ci_gh_pages.html

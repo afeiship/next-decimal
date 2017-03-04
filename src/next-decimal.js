@@ -1,7 +1,6 @@
 (function (nx, global) {
 
-  //todo:optimize test quite commit...
-  //todo: ci test;
+  //todo:remove the time :2017年03月04 10时39分03秒
   function getPower(inArgs) {
     var pos;
     var max = 0;
