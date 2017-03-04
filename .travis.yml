@@ -4,23 +4,18 @@ node_js:
 cache:
   directories:
   - node_modules
-
 branches:
   only:
   - master
 before_install:
 - chmod 755 ./deploy.sh
-
 install:
 - npm install
-
 script:
 - npm run test
 - npm run build
-
 after_script:
-- ./deploy.sh
-
+- "./deploy.sh"
 env:
   global:
-    secure: 0iInWFSLKawBiff/SsuPF/X2CNbExoh3VWGsjGklSl48o3c3khB4f8BzZy1Qm0ju/vKXTAAF6svkA9bRNJUJQSZ1AulLrgU/2a7ZWoQR/7S5sgTrYn5TBZKICZa7SsGw8lXutz/ObMPHZ/HXV+cv6N+/5cvpjg5+77Ogp0mrQwdlyqZWCoIFjhv600i+LsVFeszdUeFXFodBOCNHV7DVBZdF9yBwIYqhi1Y32q3PZeybA9aZsaYflNHa9JzbHLKSLL5IOcNzQzcGNI1630V0ZRiWlDBNpXGpRMddaZ9sYHbN3p0NNPhlaDH/EI/hupfPX5N1el0tO7vcK56Ow6o5sMfAcLuBsNNEW1D6xabBedm58OGJbX6OUJyMG1mb37kdBA5aPUoVcHYwtFXKA6afC//csX7NIWCG+RUe4TkfpMyqvhjhmYoWwLwDJQsRs1p0bEV8q37JWnQ+e26Gc0lXU48TGbhcPxSkEMIoU+HzJPWic74pn3LrkaB41afs6IshBB1cJUAQr3Q+qO3o0UHQ3QdN/0+ulh13yOa82VF9iO+M6QY9lBFIyiSKyFcRHS2ihubOgJqhy91C/iFIVd7W1KbDr/wU7r7QAeRWcKhweipcBEQlSjDwfZ3wVCzfchvZR4YhGWZC9b+60dMIhV7Xa0PDo3TJ5R5XW1cbp3GqDVU=
+    secure: QzgZf6KNOQq7U7Tdu5/gksr+rsCRaU15e/tX9PAvaiw7YCtYGsD1dIdXe46JUS2x3n+S5AK2rYiy/tPl15waHUx6i5Qe3jYwGBa1bybb6L3SE/3qDk9k4qD17JotYOibHjDUl8WOJZVxOAJ+Abox6n+hoLFKndObvjKqWaJS7JalcIRy65M34dvhymyf2lyaEweE3QdiiBRmpPR6DIsd+m8aDtyJ22tTrUXCWtbRWqB7lUDsI1SFasEoRE015c6vvnEDq5YaDvlfWaJFtWcKzd4/PgOfo00pRfRZu9VQK7tSuiVkp9USxlfaLEFUctgggA9yAiQaTdfcXIU1hINGQ0AEriokWW41Yzijc9p+JOwt334hKvPJdJsYfQWSr2kpa9uxqUGU68m8p92O2aDGDTYRt9Zf6euQZK+k2TTPtmWUX9azfUwtlMt6NehCDuN95M+nKpU/AcsCTQvC1si1xTgGF6Ikh76Go+do/6UvHL9unTv7p4Ma8bf/hkDnAMG4w2lmkSsdYcQdZBbg8bjkOHai79k7Yx/VTRWSZ85qhUdSectMQPmFG7xYKDIO+XZQutGu77LKcepZXRRMsb5gJqEPDVcY+usFi/76y0XjKgO8D0sVtCc+OB7Nw7yT+DdiH7jJzfk0MqkRyiu9vp5S2qnmSzp2lPwEKCl2jt9Zoxk=
