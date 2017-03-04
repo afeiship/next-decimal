@@ -1,6 +1,7 @@
 (function (nx, global) {
 
   //todo:remove the time :2017年03月04 10时39分03秒
+  //todo:2017年03月04 19时23分45秒 test
   function getPower(inArgs) {
     var pos;
     var max = 0;
