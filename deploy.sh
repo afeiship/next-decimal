@@ -15,4 +15,4 @@ git status
 ls -alh
 git add dist
 git commit -m "deployed to github by travis-ci"
-git push --force --quite $FULL_REPO master:master
+git push --force $FULL_REPO master:master
