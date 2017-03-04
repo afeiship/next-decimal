@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## basic define:
-GH_REPO="github.com:afeiship/next-decimal.git"
+GH_REPO="github.com/afeiship/next-decimal.git"
 FULL_REPO="https://$REPO_TOKEN@$GH_REPO"
 
 echo "$FULL_REPO";
