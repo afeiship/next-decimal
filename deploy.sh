@@ -14,5 +14,5 @@ git config user.name "feizheng-ci"
 git config user.email "1290657123@qq.com"
 git add .
 git commit -m "deployed to github by travis-ci"
-git push --force $FULL_REPO master:master
+git push --force $FULL_REPO
 
