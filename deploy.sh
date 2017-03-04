@@ -11,9 +11,10 @@ echo "$FULL_REPO";
 cd ~/build/afeiship/next-decimal
 ls -alh
 npm run build
-git config user.name "afeiship"
-git config user.email "1290657123@qq.com"
+git config --global user.email "travis@travis-ci.org"
+git config --global user.name "Travis CI"
 git add --all
-git commit -m "Deployed to github by travis-ci"
-git push --force "$FULL_REPO" master:master
+git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
+git remote add master $FULL_REPO > /dev/null 2>&1
+git push --quiet --set-upstream master master
 
