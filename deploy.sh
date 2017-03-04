@@ -8,7 +8,6 @@ echo "$FULL_REPO";
 
 
 ## commit to github:
-git config --global push.default simple
 git config user.name "feizheng-ci"
 git config user.email "1290657123@qq.com"
 git status
@@ -17,5 +16,5 @@ git add .
 git commit -m "deployed to github by travis-ci"
 
 echo "Start to push ...."
-git push --force $FULL_REPO master:master
+git push
 echo "End to push ci..."
