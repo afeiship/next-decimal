@@ -7,6 +7,10 @@ cache:
   directories:
     - node_modules
 
+branches:
+  only:
+    - master
+
 before_install:
   - chmod 755 ./deploy.sh
 
@@ -16,5 +20,5 @@ install:
 script:
   - npm run test
 
-after_success:
+after_script:
   - ./deploy.sh
