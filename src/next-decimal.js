@@ -1,6 +1,7 @@
-(function (nx, global) {
+(function (global) {
 
-  function getPower(inArgs) {
+  var nx = global.nx || require('next-js-core2');
+  var getPower = function(inArgs) {
     var pos;
     var max = 0;
     nx.each(inArgs, function (_,arg) {
@@ -9,7 +10,7 @@
     });
     max++;
     return Math.pow(10, max);
-  }
+  };
 
   var Decimal = nx.declare('nx.Decimal', {
     statics: {
@@ -50,4 +51,4 @@
   }
 
 
-}(nx, nx.GLOBAL));
+}(this));
