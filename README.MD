@@ -1,9 +1,9 @@
-#next-decimal
+# next-decimal
 > An arbitrary-precision decimal lib based on next toolkit.
 
 ![mahua](https://api.travis-ci.org/afeiship/next-decimal.svg?branch=master)
 
-##usage:
+## usage:
 + Get Decimal util:
 ```javascript
   // in browser:
@@ -31,7 +31,7 @@
   nxDecimal.mul(0.3,0.1);
 ```
 
-##resource:
+## resource:
 + http://mochajs.org/
 + http://www.cnblogs.com/slowsoul/archive/2013/06/12/3132821.html
 + http://ourjs.com/detail/54695381bc3f9b154e000046
