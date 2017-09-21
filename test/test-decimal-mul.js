@@ -8,6 +8,12 @@ describe('Decimal', function () {
       var mulResult = Decimal.mul(20.01, 100);
       assert.equal(2001, mulResult);
     });
+
+    it('0.1*0.2 == 0.02', function () {
+      var mulResult = Decimal.mul(0.1, 0.2);
+      assert.equal(0.02, mulResult);
+    });
   });
+
 
 });
