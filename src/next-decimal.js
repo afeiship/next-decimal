@@ -16,7 +16,7 @@
     return Math.pow(10, max);
   };
 
-  var Decimal = nx.declare('nx.Decimal', {
+  var NxDecimal = nx.declare('nx.Decimal', {
     statics: {
       add: function () {
         var sum = 0;
@@ -50,7 +50,7 @@
   });
 
   if (typeof module !== 'undefined' && module.exports) {
-    module.exports = Decimal;
+    module.exports = NxDecimal;
   }
 
 }());
