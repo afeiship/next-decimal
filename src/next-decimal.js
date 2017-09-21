@@ -2,12 +2,14 @@
 
   var global = global || this || self || window;
   var nx = global.nx || require('next-js-core2');
+  var DOT = '.';
+  var EMPTY_STR = '';
 
-  var getPower = function(inArgs) {
+  var getPower = function (inArgs) {
     var pos;
     var max = 0;
-    nx.each(inArgs, function (_,arg) {
-      pos = arg.toString().split('.')[1] || '';
+    nx.each(inArgs, function (_, arg) {
+      pos = arg .toString() .split(DOT)[1] || EMPTY_STR;
       max = Math.max(max, pos.length);
     });
     max++;
@@ -20,7 +22,7 @@
         var sum = 0;
         var args = arguments;
         var power = getPower(args);
-        nx.each(args, function (_,arg) {
+        nx.each(args, function (_, arg) {
           sum += arg * power;
         });
         return sum / power;
@@ -34,7 +36,7 @@
         var sum = 1;
         var args = arguments;
         var power = getPower(args);
-        nx.each(args, function (_,arg) {
+        nx.each(args, function (_, arg) {
           sum *= arg * power;
         });
         return sum / (power * power);
@@ -47,10 +49,8 @@
     }
   });
 
-
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = Decimal;
   }
-
 
 }());
