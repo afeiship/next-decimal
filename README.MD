@@ -7,28 +7,28 @@
 + Get Decimal util:
 ```javascript
   // in browser:
-  var nxDecimal=nx.Decimal;
+  var NxDecimal=nx.Decimal;
   //in es6/7 nodejs env:
-  import nxDecimal from 'next-decimal';
+  import NxDecimal from 'next-decimal';
 ```
 + Add:
 ```javascript
-  nxDecimal.add(0.1,0.2,0.3);
+  NxDecimal.add(0.1,0.2,0.3);
 ```
 
 + Sub:
 ```javascript
-  nxDecimal.sub(0.3,0.1);
+  NxDecimal.sub(0.3,0.1);
 ```
 
 + mul:
 ```javascript
-  nxDecimal.mul(0.3,0.1,0.2);
+  NxDecimal.mul(0.3,0.1,0.2);
 ```
 
 + div:
 ```javascript
-  nxDecimal.mul(0.3,0.1);
+  NxDecimal.mul(0.3,0.1);
 ```
 
 ## resource:
