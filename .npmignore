@@ -1,8 +1,9 @@
 node_modules
 bower_components
 coverage
-.idea
-dist
 npm-debug.log
-src
-gulpfile.js
+yarn.lock
+package-lock.json
+.DS_Store
+.idea
+.vscode

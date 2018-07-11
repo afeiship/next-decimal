@@ -1,6 +1,6 @@
 (function () {
 
-  var global = global || this || self || window;
+  var global = global || this || window || Function('return this')();
   var nx = global.nx || require('next-js-core2');
   var DOT = '.';
   var EMPTY_STR = '';
@@ -9,10 +9,13 @@
     var pos;
     var max = 0;
     nx.each(inArgs, function (_, arg) {
-      pos = arg .toString() .split(DOT)[1] || EMPTY_STR;
+      pos = arg.toString().split(DOT)[1] || EMPTY_STR;
       max = Math.max(max, pos.length);
     });
     max++;
+
+    console.log('max:->', max);
+
     return Math.pow(10, max);
   };
 
