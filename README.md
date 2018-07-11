@@ -6,29 +6,16 @@
 ## usage:
 + Get Decimal util:
 ```javascript
-  // in browser:
-  var NxDecimal=nx.Decimal;
-  //in es6/7 nodejs env:
-  import NxDecimal from 'next-decimal';
-```
-+ Add:
-```javascript
-  NxDecimal.add(0.1,0.2,0.3);
-```
+// in browser:
+var NxDecimal=nx.Decimal;
+//in es6/7 nodejs env:
+import NxDecimal from 'next-decimal';
 
-+ Sub:
-```javascript
-  NxDecimal.sub(0.3,0.1);
-```
-
-+ mul:
-```javascript
-  NxDecimal.mul(0.3,0.1,0.2);
-```
-
-+ div:
-```javascript
-  NxDecimal.mul(0.3,0.1);
+// usage:
+NxDecimal.add(0.1,0.2,0.3);
+NxDecimal.sub(0.3,0.1);
+NxDecimal.mul(0.3,0.1,0.2);
+NxDecimal.mul(0.3,0.1);
 ```
 
 ## resource:
