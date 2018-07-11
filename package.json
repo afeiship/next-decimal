@@ -30,6 +30,8 @@
     "size": "^1.0.0"
   },
   "dependencies": {
-    "next-js-core2": "afeiship/next-js-core2"
+    "next-float-power": "github:afeiship/next-float-power",
+    "next-js-core2": "afeiship/next-js-core2",
+    "next-max": "github:afeiship/next-max"
   }
 }
