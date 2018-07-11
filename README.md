@@ -15,6 +15,16 @@ NxDecimal.mul(0.3,0.1,0.2);
 NxDecimal.mul(0.3,0.1);
 ```
 
+## bug:
+```js
+// BUG:
+20.01*100 => 2001.0000000000002
+0.1 * 10  => 1
+
+// so:
+20.01 * 1000 
+```
+
 ## resource:
 + http://mochajs.org/
 + http://www.cnblogs.com/slowsoul/archive/2013/06/12/3132821.html
