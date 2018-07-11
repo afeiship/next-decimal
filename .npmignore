@@ -1,9 +1,9 @@
-node_modules
-bower_components
-coverage
-npm-debug.log
-yarn.lock
-package-lock.json
-.DS_Store
 .idea
-.vscode
+.DS_Store
+**/npm-debug.log
+**/node_modules
+test
+src
+build
+docs
+gulpfile.js
