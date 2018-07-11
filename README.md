@@ -6,9 +6,6 @@
 ## usage:
 + Get Decimal util:
 ```javascript
-// in browser:
-var NxDecimal=nx.Decimal;
-//in es6/7 nodejs env:
 import NxDecimal from 'next-decimal';
 
 // usage:
