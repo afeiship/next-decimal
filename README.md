@@ -4,7 +4,6 @@
 ![mahua](https://api.travis-ci.org/afeiship/next-decimal.svg?branch=master)
 
 ## usage:
-+ Get Decimal util:
 ```javascript
 import NxDecimal from 'next-decimal';
 
