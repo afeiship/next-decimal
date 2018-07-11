@@ -3,18 +3,17 @@
   var global = global || this || window || Function('return this')();
   var nx = global.nx || require('next-js-core2');
 
+  // next package:
   require('next-float-power');
   require('next-max');
 
-  var getMaxPower = function (inArgs) {
-    var result = [];
-    nx.forEach(inArgs, function (arg) {
-      result.push(nx.floatPower(arg) * 10);
+  // private function:
+  function getMaxPower(inArgs) {
+    var result = nx.map(inArgs, function (_, arg) {
+      return nx.floatPower(arg) * 10;
     });
     return nx.max(result);
-  };
-
-
+  }
 
   var NxDecimal = nx.declare('nx.Decimal', {
     statics: {
