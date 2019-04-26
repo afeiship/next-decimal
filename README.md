@@ -3,7 +3,12 @@
 
 ![mahua](https://api.travis-ci.org/afeiship/next-decimal.svg?branch=master)
 
-## usage:
+## installation
+```shell
+npm install -S afeiship/next-decimal --registry=https://registry.npm.taobao.org
+```
+
+## usage
 ```javascript
 import NxDecimal from 'next-decimal';
 
@@ -14,7 +19,7 @@ NxDecimal.mul(0.3,0.1,0.2);
 NxDecimal.div(0.3,0.1);
 ```
 
-## bug:
+## bug
 ```js
 // BUG:
 20.01*100 = 2001.0000000000002
@@ -24,7 +29,7 @@ NxDecimal.div(0.3,0.1);
 20.01 * 1000 
 ```
 
-## resource:
+## resources
 + http://mochajs.org/
 + http://www.cnblogs.com/slowsoul/archive/2013/06/12/3132821.html
 + http://ourjs.com/detail/54695381bc3f9b154e000046
