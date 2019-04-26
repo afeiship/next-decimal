@@ -11,7 +11,7 @@ import NxDecimal from 'next-decimal';
 NxDecimal.add(0.1,0.2,0.3);
 NxDecimal.sub(0.3,0.1);
 NxDecimal.mul(0.3,0.1,0.2);
-NxDecimal.mul(0.3,0.1);
+NxDecimal.div(0.3,0.1);
 ```
 
 ## bug:
